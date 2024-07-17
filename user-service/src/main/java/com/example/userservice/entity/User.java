@@ -14,12 +14,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 
 @Table(name = "user")
-public class user {
+public class User {
 
 
     @Id
 
-    private Long ID;
+    private Long Id;
     private String name;
     private String email;
 }
